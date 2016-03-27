@@ -1,0 +1,7 @@
+Search Walmart
+
+<%= form_for :search , url: new_search_path , html: { method: :get } do |f|%>
+	<%= f.label :URL %>
+	<%= f.text_field :URL %>
+	<%= f.submit %>
+<% end %>
